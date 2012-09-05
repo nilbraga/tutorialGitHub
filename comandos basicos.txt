@@ -51,7 +51,7 @@ $git commit -m "Exemplo com o comentário obrigatório"
 Visualizando os logs (the commit history)
 Depois que criar vários commits, ou se vocÊ tiver clonado um repositório com um history existente, vocÊ provavelmente
 vai querer ver o que já fez.
-a sintaxe do commando é  $git log
+a sintaxe do commando é  $git log.
 
 
 
