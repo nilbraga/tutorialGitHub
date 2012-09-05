@@ -1,0 +1,58 @@
+Iniciar uma trilha para um projeto existente, va para a pasta do diretorio do projeto e digite:
+git init
+Isto cria um novo subdiretorio chamado .git que contém tudo que é necessário
+
+
+
+se vc quiser iniciar um controle de versão de arquivos existentes, você deve começar colocando
+estes arquivos em tracking e fazendo um primeiro commit.
+$ git add *.c
+$ git add README
+$ git commit m ’initial project version’
+
+em poucos minutos teremos estes comando executados. Neste ponto, você tem um repositorio Git
+com arquivos em track e um inicial commit.
+
+Clonando um repositorio existente
+Se você quer uma cópia de um repositorio Git existente, o comando que você precisa é o 
+git clone
+
+Sintaxe:
+git clone [url]
+
+$ git clone git://github.com/schacon/grit.git
+
+se você quiser guardar os dados em uma pasta diferente do nome grit você pode utilizar
+a seguinte sintaxe:
+
+$ git clone git://github.com/schacon/grit.git mygrit
+
+o comando é o mesmo a diferença é que será salvo no seu computador na pasta mygrit
+
+
+Verificando o status do arquivo
+$ git status
+
+
+Para adicionar novos arquivos ao tracking
+
+$ git add [nome do arquivo] ou ponto para incluir todos.
+
+Para commitar os arquivos que estão no stage faça:
+$git commit
+
+git pedirá uma descrição para o commit se colocar # o git ignorará...se deixar em branco o git cancelará o commit.
+Para colocar uma mensagem é preciso passar entre aspas.
+
+Para fazer isso de uma só vez adicione -m no comando, ficando assim:
+$git commit -m "Exemplo com o comentário obrigatório"
+
+
+Visualizando os logs (the commit history)
+Depois que criar vários commits, ou se vocÊ tiver clonado um repositório com um history existente, vocÊ provavelmente
+vai querer ver o que já fez.
+a sintaxe do commando é  $git log
+
+
+
+
